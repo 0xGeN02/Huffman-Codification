@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Huffman-Codification/static/css/main.40d4fb56.css",
+    "main.js": "/Huffman-Codification/static/js/main.1de1c392.js",
+    "static/js/787.98498dfe.chunk.js": "/Huffman-Codification/static/js/787.98498dfe.chunk.js",
+    "static/media/logo-color.png": "/Huffman-Codification/static/media/logo-color.6fc88a4a80f75e3cf0f3.png",
+    "static/media/logoUie.svg": "/Huffman-Codification/static/media/logoUie.e3ec7a76ab0cfd1521778b2065f5f021.svg",
+    "index.html": "/Huffman-Codification/index.html",
+    "main.40d4fb56.css.map": "/Huffman-Codification/static/css/main.40d4fb56.css.map",
+    "main.1de1c392.js.map": "/Huffman-Codification/static/js/main.1de1c392.js.map",
+    "787.98498dfe.chunk.js.map": "/Huffman-Codification/static/js/787.98498dfe.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.40d4fb56.css",
+    "static/js/main.1de1c392.js"
+  ]
+}
