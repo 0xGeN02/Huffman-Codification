@@ -1,0 +1,35 @@
+/* Navbar styles */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+  z-index: 100;
+  border-radius: 10px 10px 0 0;
+  background: rgba(255,255,255,0.3); /* Adding a semi-transparent black background */
+  color: white; /* Adding white color to match with the default styles */
+}
+
+  /* Set up logo images */
+  .subject-logos {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+  }
+  
+  .UiE img{
+    height: 60px;
+    margin-right: 15px;
+  }
+  .github img,
+  .myLogo img {
+    height: 60px;
+    margin-right: 15px;
+    border-radius: 100%; /* Add 50% border-radius to create circular images */
+    border: solid 5px grey;
+  }

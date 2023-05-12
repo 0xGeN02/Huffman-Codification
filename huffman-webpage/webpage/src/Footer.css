@@ -1,0 +1,26 @@
+/* Footer styles */
+.footer-bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background: rgba(255, 255, 255, 0.3); /* Adding a semi-transparent black background */
+  color: white; /* Adding white color to match with the default styles */
+}
+
+.footer-utilities {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img {
+  height: 45px;
+  margin-right: 15px;
+  border-radius: 50%;
+  border: solid 5px grey;
+}

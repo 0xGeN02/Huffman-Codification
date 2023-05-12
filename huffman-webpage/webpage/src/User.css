@@ -1,0 +1,93 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 60px; /* Espacio para el footer */
+}
+
+.inputgroup, .outputgroup, .treegraph {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.inputgroup {
+  position: relative;
+}
+.inputgroup textarea {
+  width: 80%;
+  height: 200px;
+  resize: none;
+  margin-bottom: 15px;
+}
+
+.inputgroup textarea::placeholder {
+  color: #666;
+  width: 400px;
+}
+
+.encodebutton {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.encodebutton:hover {
+  background-color: purple;
+}
+
+.outputsubtitle {
+  margin-top: 20px;
+}
+
+.outputgroup textarea {
+  width: 80%;
+  height: 100px;
+  resize: none;
+}
+
+.comparisonresult {
+  margin-top: 20px;
+  background-color: white;
+}
+.comparationresult{
+  color: purple;
+  min-width: 250px;
+  border-radius: 10%;
+}
+.treegraph {
+  margin-top: 20px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+.outputsubtitleTree{
+  color: purple;
+}
+
+.inputgroup img {
+  position: absolute;
+  left: -60px; /* Ajusta este valor según el tamaño de tu imagen */
+  top: 50%;
+  transform: translateY(-50%);
+  animation: float 2s ease-in-out infinite;
+  max-width: 100%;
+  height: auto;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(-50%);
+  }
+  50% {
+    transform: translateY(-60px); /* Ajusta este valor para controlar la altura de la flotación */
+  }
+}
+
+.inputgroup {
+  position: relative;
+}

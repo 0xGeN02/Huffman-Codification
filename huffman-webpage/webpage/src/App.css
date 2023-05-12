@@ -1,0 +1,32 @@
+/* Reset some default styles */
+body, h1, h2, h3, h4, h5, h6, p, button, textarea {
+    margin: 0;
+    padding: 0;
+}
+
+/* Hero and User styles */
+.hero {
+    padding: 50px;
+    text-align: center;
+    color: white; /* Adding color to match with the default styles */
+}
+
+.user {
+    background-color: rgba(255, 255, 255, 0.8); /* Adding a semi-transparent white background */
+    padding: 30px;
+    margin: 0 auto;
+    width: 80%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Other styles remain the same as previous */
+
+
+
+
+/* Estilo para footer fijo */
+.Footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }

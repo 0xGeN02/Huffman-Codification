@@ -1,0 +1,24 @@
+body{
+    /* ff 3.6+ */
+    background:-moz-linear-gradient(90deg, rgba(110, 25, 187, 1) 0%, rgba(7, 58, 187, 1) 55%, rgba(0, 255, 235, 1) 100%); 
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-linear-gradient(90deg, rgba(110, 25, 187, 1) 0%, rgba(7, 58, 187, 1) 55%, rgba(0, 255, 235, 1) 100%);
+
+    /* opera 11.10+ */
+    background:-o-linear-gradient(90deg, rgba(110, 25, 187, 1) 0%, rgba(7, 58, 187, 1) 55%, rgba(0, 255, 235, 1) 100%);
+
+    /* ie 6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00FFEB', endColorstr='#6E19BB', GradientType=0 );
+
+    /* ie 10+ */
+    background:-ms-linear-gradient(90deg, rgba(110, 25, 187, 1) 0%, rgba(7, 58, 187, 1) 55%, rgba(0, 255, 235, 1) 100%);
+
+    /* global 94%+ browsers support */
+    background:linear-gradient(90deg, rgba(110, 25, 187, 1) 0%, rgba(7, 58, 187, 1) 55%, rgba(0, 255, 235, 1) 100%);
+}   
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}

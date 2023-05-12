@@ -1,0 +1,24 @@
+.hero {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  overflow: hidden;
+  margin-top: 90px;
+}
+.hero H1{
+  color: black;
+}
+.hero-container {
+  width: 100%;
+  max-width: 960px;
+  padding: 0 50px;
+  text-align: center;
+  z-index: 2;
+}
+
+.hero-title {
+  font-size: 3rem;
+  margin-bottom: 40px;
+}
